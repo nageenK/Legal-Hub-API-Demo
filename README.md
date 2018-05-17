@@ -17,7 +17,9 @@
 	"country": "US",
 	"zipCode": 27513
 }]
-```
+```<br />
+**`URI`**: **/findByLastName/{searchTerm}
+
 ## POST:<br />
 **`URI`**: **/postcustomer**<br />
 **`Request`**:
@@ -36,9 +38,6 @@
 ```
 **`Response`**:<br />
 200 HTTP Status Code.(May be enhanced to return an ID)<br />
-
-## GET:<br />
-**`URI`**: **/findByLastName/{searchTerm}
 
 ## DELETE:<br />
 **`URI`**: **/customer/{id}** // id - Customer Id 
@@ -69,10 +68,10 @@ mvn spring-boot:run<br />
 – http://localhost:8080/customer<br />
 
 # Technologies
-– Java 1.8
-– Maven 3.3.9
-– Spring Tool Suite – Version 3.8.4.RELEASE
-– Spring Boot: RELEASE
+– Java 1.8<br />
+– Maven 3.3.9<br />
+– Spring Tool Suite – Version 3.8.4.RELEASE<br />
+– Spring Boot: RELEASE<br />
 
 # About project file structure
 – Class Customer corresponds to entity and table customer, it should be implemented Serializable.<br />
