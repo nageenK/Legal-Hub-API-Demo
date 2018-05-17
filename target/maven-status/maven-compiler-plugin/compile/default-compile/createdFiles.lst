@@ -1,0 +1,4 @@
+com\javasampleapproach\legalhubapi\repo\CustomerRepository.class
+com\javasampleapproach\legalhubapi\model\Customer.class
+com\javasampleapproach\legalhubapi\LegalHubApplication.class
+com\javasampleapproach\legalhubapi\controller\CustomerController.class
